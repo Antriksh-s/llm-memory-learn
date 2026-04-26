@@ -11,7 +11,7 @@ from langchain_core.messages import HumanMessage, AIMessage # by default your LL
 load_dotenv()
 llm = ChatOpenAI(model="gpt-4o-mini")
 
-# 1. Define the Prompt with a Placeholder for history
+# 1. Define the Prompt with a Placeholder for history, and give the AI model it's personality.
 prompt = ChatPromptTemplate.from_messages([
     ("system", "You are a helpful assistant."),
     MessagesPlaceholder(variable_name="chat_history"), 
