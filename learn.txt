@@ -4,3 +4,10 @@ Manual memory stiching
 
 from langchain.core
 HumanMessage, SystemMessage, AIMessage
+
+
+buffer memory
+window memory
+summery memory
+
+In prod, we use combinations of these memories based on the use case.
