@@ -1,0 +1,8 @@
+Data/
+*.csv
+*.json
+*.xlsx
+
+01_from_rule_to_genai/util_function/
+__pycache__/
+.env
